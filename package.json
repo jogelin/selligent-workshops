@@ -2,7 +2,14 @@
   "name": "selligent-workshop",
   "version": "0.0.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-1": "jest src/1-what-is-functional-programming/index.test.js",
+    "test-2": "jest src/2-declarative-vs-imperative/index.test.js",
+    "test-3": "jest src/3-pure-function-memoization/index.test.js",
+    "test-4": "jest src/4-higher-order-functions/index.test.js",
+    "test-5": "jest src/5-function-composition/index.test.js",
+    "test-6": "jest src/6-closure-currying/index.test.js"
+
   },
   "dependencies": {
     "jest": "^27.0.6"
